@@ -1,4 +1,5 @@
 <%@ page contentType = "text/html;charset=UTF-8" language ="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -27,14 +28,14 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Return or Replace</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">New Releases</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Today Deals</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Products</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#deal">Today Deals</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sign In/Create Account</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Cart</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#login">Sign In/Create Account</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cart">Cart</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,42 +68,44 @@
                 </div>
             </div>
         </section>
+        <!-- Login-->
+                <section class="page-section bg-dark text-white" id="login">
+                    <div class="container-fluid">
+                        <%@include file="/WEB-INF/jsp/login.jsp"%>
+                    </div>
+                </section>
         <!-- Services-->
         <section class="page-section" id="services">
-            <div class="container">
-                <h2 class="text-center mt-0">All Our Products</h2>
-                <hr class="divider my-4" />
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep latest products!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All Products are kept current to keep things fresh.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use product design as is, or you can make changes!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really Product if it's not made with love?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="container-fluid">
+                            <h2 class="text-center mt-0">All Our Products</h2>
+                            <hr class="primary">
+
+             <div class="container-fluid">
+                         <p class="text-center mt-0">Checkout all our awesome products available here!</p>
+                         <hr class="divider my-4" />
+                 </div>
+              </div>
+              </div>
+                <table class="mt-0 table table-striped table-hover table-hovered">
+                    <thead>
+                        <tr>
+                            <th>Photo Thumb</th>
+                            <th>Product Name</th>
+                            <th>Category</th>
+                            <th>Condition</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <c:forEach items="${products}" var="product">
+                        <tr>
+                            <td><img src="#" alt="image"/></td>
+                            <td>${product.productName}</td>
+                            <td>${product.productCategory}</td>
+                            <td>${product.productCondition}</td>
+                            <td>${product.productPrice}</td>
+                        </tr>
+                    </c:forEach>
+                </table>
         </section>
         <!-- Portfolio-->
         <div id="portfolio">
@@ -168,8 +171,8 @@
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container text-center">
-                <h2 class="mb-4">Free Download DShopping App!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+                <h2 class="mb-4">Any product which you feel Interested in ?</h2>
+                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Order Now!</a>
             </div>
         </section>
         <!-- Contact-->

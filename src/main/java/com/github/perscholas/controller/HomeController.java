@@ -16,8 +16,11 @@ import java.util.List;
 
 public class HomeController {
     private ProductDao productDao = new ProductDao();
+
     @RequestMapping("/DShopping")
-    public String welcome(){
+    public String welcome(Model model){
+        List<Product> productList =productDao.getProductList();
+        model.addAttribute("products", productList);
         return "welcome";
     }
 }

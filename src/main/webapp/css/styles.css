@@ -10027,6 +10027,15 @@ hr.light {
   border-radius: 10rem;
 }
 
+.btn-min {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.25rem;
+  font-weight: 70;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5rem;
+}
+
 .page-section {
   padding: 8rem 0;
 }
