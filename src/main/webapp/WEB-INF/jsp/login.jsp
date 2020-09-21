@@ -13,28 +13,28 @@
 <body>
 
 <center> 
-<form action="/WEB-INF/jsp/loginconf.jsp" method="post">
+<form action="/DShopping/loginconf" method="post">
 <div class="container text-center">
                 <h2 class="mb-4">User Login</h2>
  </div>
 <table>
     <tr>
     <td> Username: </td>
-    <td> <input type="text" name="id"> </td>
+    <td> <input type="text" name="id" value =""> </td>
     </Tr>
     <tr>
     <td> Password: </td>
-    <td> <input type="password" name="password"> </td>
+    <td> <input type="password" name="password" value =""> </td>
     </Tr>
 
 </Table>
 <p></p>
 
-<tr>
-    <a class="btn-min border-radius: 1px;"> <input type="submit" value="Log In"> </a>
-    <a class="btn-min border-radius: 1px;"> <input type="reset" value="Clear"> </a>
-    </Tr>
-
+<div>
+    <a class="btn-min"> <input type="submit" value="Log In"> </a>
+    <a class="btn-min"> <input type="reset" value="Clear"> </a>
+    <a class="btn-min"> <input type="button" value="Register"> </a>
+</div>
 </Form>
 </Center>
 </body>

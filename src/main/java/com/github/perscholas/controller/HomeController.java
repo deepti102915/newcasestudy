@@ -23,4 +23,9 @@ public class HomeController {
         model.addAttribute("products", productList);
         return "welcome";
     }
+
+    @RequestMapping("/DShopping/loginconf")
+    public String loginconf(){
+        return "loginconf";
+    }
 }
