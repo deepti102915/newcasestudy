@@ -1,6 +1,15 @@
 package com.github.perscholas.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Product {
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
     private String productName;
     private String productCategory;
     private String productDescription;
@@ -9,6 +18,14 @@ public class Product {
     private String productStatus;
     private int unitInStock;
     private String productManufacturer;
+
+    public Integer getProductId() {
+        return id;
+    }
+
+    public void setProductId(Integer productId) {
+        this.id = productId;
+    }
 
     public String getProductName() {
         return productName;

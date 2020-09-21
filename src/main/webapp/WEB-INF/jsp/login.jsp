@@ -1,5 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" import="java.sql.*" errorPage="" %>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ page contentType = "text/html;charset=UTF-8" language ="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Log in</title>
@@ -13,7 +13,7 @@
 <body>
 
 <center> 
-<form action="/DShopping/loginconf" method="post">
+<form action="/loginconf" method="post">
 <div class="container text-center">
                 <h2 class="mb-4">User Login</h2>
  </div>
@@ -33,9 +33,20 @@
 <div>
     <a class="btn-min"> <input type="submit" value="Log In"> </a>
     <a class="btn-min"> <input type="reset" value="Clear"> </a>
-    <a class="btn-min"> <input type="button" value="Register"> </a>
+    <a class="btn-min"> <input type="button" value="Register" onclick="goToRegister()"> </a>
 </div>
+<c:if test="${not empty error}">
+    <div style=" color: red">
+        <br>
+        <a class="d-block color: #ffc107 ">${error}</a>
+    </div>
+</c:if>
 </Form>
 </Center>
+<script type="text/javascript">
+function goToRegister(){
+    window.location.href="/register"
+}
+</script>
 </body>
 </html>
