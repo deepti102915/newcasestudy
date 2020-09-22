@@ -107,6 +107,29 @@
                     </c:forEach>
                 </table>
         </section>
+        <!-- Today Deal-->
+                <section class="page-section bg-primary" id="deal">
+                    <div class="container-fluid">
+                                    <h2 class="text-center text-white mt-0">Today's Deal</h2>
+                                    <hr class="primary">
+                     <div class="container-fluid">
+                                 <p class="text-center text-white mt-0">Checkout all our Deals available here!</p>
+                                 <hr class="divider my-4" />
+                         </div>
+                      </div>
+                      </div>
+                        <table class="mt-0 table table-striped table-hover table-hovered">
+                            <thead>
+                                <tr>
+                                    <th class="text-white">Photo Thumb</th>
+                                    <th class="text-white">Product Name</th>
+                                    <th class="text-white">Category</th>
+                                    <th class="text-white">Condition</th>
+                                    <th class="text-white">Price</th>
+                                </tr>
+                            </thead>
+                        </table>
+                </section>
         <!-- Portfolio-->
         <div id="portfolio">
             <div class="container-fluid p-0">

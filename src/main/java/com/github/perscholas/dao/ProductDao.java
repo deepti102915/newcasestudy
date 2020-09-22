@@ -1,9 +1,11 @@
 package com.github.perscholas.dao;
 
 import com.github.perscholas.model.Product;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class ProductDao {
     private List<Product> productList;

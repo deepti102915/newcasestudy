@@ -79,8 +79,12 @@
                           <table>
                               <tr>
                               <td> Username: </td>
-                              <td> <input type="text" name="id" value =""> </td>
+                              <td> <input type="text" name="uname" value =""> </td>
                               </Tr>
+                              <tr>
+                            <td> Email Id: </td>
+                            <td> <input type="text" name="email" value =""> </td>
+                            </Tr>
                               <tr>
                               <td> Password: </td>
                               <td> <input type="password" name="password1" value =""> </td>
