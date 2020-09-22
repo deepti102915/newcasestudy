@@ -69,17 +69,22 @@
             </div>
         </section>
         <!-- Login-->
-                <section class="page-section bg-dark text-white" id="login">
-                    <div class="container-fluid">
-                        <%@include file="/WEB-INF/jsp/login.jsp"%>
-                    </div>
-                </section>
+        <section class="page-section bg-dark text-white" id="login">
+            <div class="container-fluid">
+                <%@include file="/WEB-INF/jsp/login.jsp"%>
+            </div>
+        </section>
+        <!-- Cart-->
+         <section class="page-section bg-primary" id="cart">
+            <div class="container-fluid">
+                <h2 class="text-center text-white mt-0">Please Login to View Cart</h2>
+            </div>
+        </section>
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container-fluid">
                             <h2 class="text-center mt-0">All Our Products</h2>
                             <hr class="primary">
-
              <div class="container-fluid">
                          <p class="text-center mt-0">Checkout all our awesome products available here!</p>
                          <hr class="divider my-4" />
@@ -124,10 +129,19 @@
                                     <th class="text-white">Photo Thumb</th>
                                     <th class="text-white">Product Name</th>
                                     <th class="text-white">Category</th>
-                                    <th class="text-white">Condition</th>
                                     <th class="text-white">Price</th>
+                                    <th class="text-red">Deal Price</th>
                                 </tr>
                             </thead>
+                            <c:forEach items="${deals}" var="deal">
+                                <tr>
+                                    <td><img src="#" alt="image"/></td>
+                                    <td class="text-white">${deal.dealName}</td>
+                                    <td class="text-white">${deal.dealCategory}</td>
+                                    <td class="text-white">${deal.dealPrice1}</td>
+                                    <td class="text-red">${deal.dealPrice}</td>
+                                </tr>
+                            </c:forEach>
                         </table>
                 </section>
         <!-- Portfolio-->
@@ -195,7 +209,7 @@
         <section class="page-section bg-dark text-white">
             <div class="container text-center">
                 <h2 class="mb-4">Any product which you feel Interested in ?</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Order Now!</a>
+                <a class="btn btn-light btn-xl" href="localhost:8080">Order Now!</a>
             </div>
         </section>
         <!-- Contact-->

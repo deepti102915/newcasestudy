@@ -1,10 +1,9 @@
 package com.github.perscholas.controller;
 
 import com.github.perscholas.dao.ProductDao;
-import com.github.perscholas.model.Product;
-import com.github.perscholas.model.ProductRepo;
-import com.github.perscholas.model.User;
-import com.github.perscholas.model.UserRepo;
+import com.github.perscholas.model.*;
+import com.github.perscholas.service.DealService;
+import com.github.perscholas.service.ItemService;
 import com.github.perscholas.service.ProductService;
 import com.github.perscholas.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +32,19 @@ public class HomeController {
     Product product2 =new Product();
     Product product3 =new Product();
     Product product4 =new Product();
+
+    @Autowired
+    private DealRepo dealRepo;
+
+    @Autowired
+    private DealService dealService;
+
+    Deal deal1 =new Deal();
+    Deal deal2 =new Deal();
+
+    @Autowired
+    private ItemService itemService;
+    Item item1 = new Item();
 
     @RequestMapping("/")
     public String welcome(Model model){
@@ -80,9 +92,55 @@ public class HomeController {
         productService.addProduct(product2);
         productService.addProduct(product3);
         productService.addProduct(product4);
-
+        //Product
         List<Product> productList =productService.getAllProducts();
         model.addAttribute("products", productList);
+
+
+        deal1.setId(1);
+        deal1.setDealName("iPhone8 Plus");
+        deal1.setDealCategory("iPhone");
+        deal1.setDealDescription("This is new iphone8 Plus");
+        deal1.setDealPrice1(600.00);
+        deal1.setDealPrice(450.00);
+        deal1.setDealCondition("This is new arrival");
+        deal1.setDealStatus("Active");
+        deal1.setUnitInStock(5);
+        deal1.setDealManufacturer("Apple");
+
+        deal2.setId(2);
+        deal2.setDealName("iPhone X");
+        deal2.setDealCategory("iPhone");
+        deal2.setDealDescription("This is new iphone X Model");
+        deal2.setDealPrice1(1200.00);
+        deal2.setDealPrice(1100.00);
+        deal2.setDealCondition("This is new arrival");
+        deal2.setDealStatus("Active");
+        deal2.setUnitInStock(5);
+        deal2.setDealManufacturer("Apple");
+
+        dealService.addDeal(deal1);
+        dealService.addDeal(deal2);
+
+
+        //Deal
+        List<Deal> dealList =dealService.getAllDeals();
+        model.addAttribute("deals", dealList);
+
+        item1.setId(1);
+        item1.setProductId(1);
+        item1.setUserId(1);
+        item1.setQuantity(2);
+        item1.setProductName("iPhone8 Plus");
+        item1.setProductPrice(600.00);
+        //item1.setProduct(productService.find("1"));
+
+        itemService.addDeal(item1);
+
+        //item
+        List<Item> itemList =itemService.getAllItems();
+        model.addAttribute("carts", itemList);
+
         return "welcome";
     }
 
@@ -104,14 +162,30 @@ public class HomeController {
         if(u!=null) {
             System.out.println("User exist" + id);
             model.addAttribute("UserName", id);
+            //Product
             List<Product> productList =productService.getAllProducts();
             model.addAttribute("products", productList);
+
+            //Deal
+            List<Deal> dealList =dealService.getAllDeals();
+            model.addAttribute("deals", dealList);
+
+            //item
+            List<Item> itemList =itemService.getAllItems();
+            model.addAttribute("carts", itemList);
+
             return "loginconf";
         }
         System.out.println("User does not exist");
         model.addAttribute("error", "User not found, Kindly Register !!!");
+        //Product
         List<Product> productList =productService.getAllProducts();
         model.addAttribute("products", productList);
+
+        //Deal
+        List<Deal> dealList =dealService.getAllDeals();
+        model.addAttribute("deals", dealList);
+
         return "welcome";
     }
 
@@ -119,13 +193,16 @@ public class HomeController {
     public String goToRegistrationPage(Model model){
         List<Product> productList =productService.getAllProducts();
         model.addAttribute("products", productList);
+
+        //Deal
+        List<Deal> dealList =dealService.getAllDeals();
+        model.addAttribute("deals", dealList);
         return "register";
     }
 
     @RequestMapping("/set-user")
     public String addUser(@RequestParam("email") String email, @RequestParam("uname") String uName,
                           @RequestParam("password1") String password, Model model){
-        //TODO
         User u = new User();
         //u.setId(id);
         u.setName(uName);
@@ -134,6 +211,12 @@ public class HomeController {
         userService.addUser(u);
         List<Product> productList =productService.getAllProducts();
         model.addAttribute("products", productList);
+
+        //Deal
+        List<Deal> dealList =dealService.getAllDeals();
+        model.addAttribute("deals", dealList);
         return "welcome";
     }
+
+
 }

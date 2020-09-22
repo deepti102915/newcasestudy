@@ -73,6 +73,52 @@
                         <h2 class="mb-4"> Welcome to Home Page - ${UserName}</h2>
                     </div>
                 </section>
+        <!-- Cart-->
+         <section class="page-section bg-primary" id="cart">
+                <div class="container-fluid">
+                        <h2 class="text-center text-white mt-0">CART</h2>
+                        <hr class="primary">
+                 </div>
+
+                 <div class="text-center container-fluid">
+                 <table class="mt-0 table table-striped table-hover table-hovered">
+                         <thead>
+                             <tr>
+                                 <th class="text-white">Option</th>
+                                 <th class="text-white">Id</th>
+                                 <th class="text-white">Name</th>
+                                 <th class="text-white">Photo</th>
+                                 <th class="text-white">Price</th>
+                                 <th class="text-white">Quantity</th>
+                                 <th class="text-white">Sub Total</th>
+                             </tr>
+                         </thead>
+                         <c:set var="total" value="0"></c:set>
+                		<c:forEach items="${carts}" var="cart">
+                		<c:set var="total"
+                        				value="${total + cart.productPrice * cart.quantity}"></c:set>
+                			<tr>
+                                <td class="text-white">
+                                <a class="text-white"
+                                    href=""
+                                    onclick="return confirm('Are you sure?')">Remove
+                                </a>
+                                </td>
+                				<td class="text-white">${cart.productId}</td>
+                				<td class="text-white">${cart.productName}</td>
+                				<td class="text-white"><img src="#" alt="image"/></td>
+                				<td class="text-white">${cart.productPrice}</td>
+                				<td class="text-white">${cart.quantity}</td>
+                				<td class="text-white">${cart.productPrice * cart.quantity }</td>
+                			</tr>
+                		</c:forEach>
+                		<tr>
+                			<td class="text-white" colspan="6" align="right">Sum</td>
+                			<td class="text-white" >${total }</td>
+                		</tr>
+                	</table>
+            </div>
+        </section>
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container-fluid">
@@ -106,6 +152,39 @@
                     </c:forEach>
                 </table>
         </section>
+        <!-- Today Deal-->
+            <section class="page-section bg-primary" id="deal">
+                <div class="container-fluid">
+                                <h2 class="text-center text-white mt-0">Today's Deal</h2>
+                                <hr class="primary">
+                 <div class="container-fluid">
+                             <p class="text-center text-white mt-0">Checkout all our Deals available here!</p>
+                             <hr class="divider my-4" />
+                     </div>
+                  </div>
+                  </div>
+                    <table class="mt-0 table table-striped table-hover table-hovered">
+                        <thead>
+                            <tr>
+                                <th class="text-white">Photo Thumb</th>
+                                <th class="text-white">Product Name</th>
+                                <th class="text-white">Category</th>
+                                <th class="text-white">Price</th>
+                                <th class="text-red">Deal Price</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                       <c:forEach items="${deals}" var="deal">
+                           <tr>
+                               <td><img src="#" alt="image"/></td>
+                               <td class="text-white">${deal.dealName}</td>
+                               <td class="text-white">${deal.dealCategory}</td>
+                               <td class="text-white">${deal.dealPrice1}</td>
+                               <td class="text-blue">${deal.dealPrice}</td>
+                           </tr>
+                       </c:forEach>
+                    </table>
+            </section>
         <!-- Portfolio-->
         <div id="portfolio">
             <div class="container-fluid p-0">
@@ -171,7 +250,7 @@
         <section class="page-section bg-dark text-white">
             <div class="container text-center">
                 <h2 class="mb-4">Any product which you feel Interested in ?</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Order Now!</a>
+                <a class="btn btn-light btn-xl" href="localhost:8080">Order Now!</a>
             </div>
         </section>
         <!-- Contact-->

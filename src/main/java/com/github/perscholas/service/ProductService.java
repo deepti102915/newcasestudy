@@ -22,4 +22,15 @@ public class ProductService {
     public void addProduct(Product product){
         productRepo.save(product);
     }
+
+    public Product find(String id) {
+        for (Product product : this.getAllProducts()) {
+            if (!product.getProductId().toString().equalsIgnoreCase(id)) {
+                continue;
+            }
+            return product;
+        }
+        return null;
+    }
+
 }
