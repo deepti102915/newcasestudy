@@ -46,6 +46,10 @@ public class HomeController {
     private ItemService itemService;
     Item item1 = new Item();
 
+    @Autowired
+    private UserService userService;
+    User user1 = new User();
+
     @RequestMapping("/")
     public String welcome(Model model){
         product1.setProductId(1);
@@ -141,14 +145,19 @@ public class HomeController {
         List<Item> itemList =itemService.getAllItems();
         model.addAttribute("carts", itemList);
 
+        user1.setId(1);
+        user1.setEmail("ani@gmail.com");
+        user1.setPassword("123");
+        user1.setName("Anil");
+
+        userService.addUser(user1);
+
+
         return "welcome";
     }
 
     @Autowired
     private UserRepo userRepo;
-
-    @Autowired
-    private UserService userService;
 
     @RequestMapping("/loginconf")
     public String loginconf(@RequestParam("id") String id, @RequestParam("password") String password, Model model){
