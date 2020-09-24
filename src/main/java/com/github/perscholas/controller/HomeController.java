@@ -45,6 +45,7 @@ public class HomeController {
     @Autowired
     private ItemService itemService;
     Item item1 = new Item();
+    Item item2 = new Item();
 
     @Autowired
     private UserService userService;
@@ -139,7 +140,16 @@ public class HomeController {
         item1.setProductPrice(600.00);
         //item1.setProduct(productService.find("1"));
 
+        item2.setId(2);
+        item2.setProductId(2);
+        item2.setUserId(1);
+        item2.setQuantity(2);
+        item2.setProductName("Samsung S3");
+        item2.setProductPrice(900.00);
+        //item1.setProduct(productService.find("1"));
+
         itemService.addDeal(item1);
+        itemService.addDeal(item2);
 
         //item
         List<Item> itemList =itemService.getAllItems();
@@ -150,7 +160,7 @@ public class HomeController {
         user1.setPassword("123");
         user1.setName("Anil");
 
-        userService.addUser(user1);
+        //userService.addUser(user1);
 
 
         return "welcome";
