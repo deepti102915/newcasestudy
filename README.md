@@ -178,6 +178,9 @@ Step 9 (d): Click on Books:
  
 Step 9 (e) : Click on Computers
 
+![Step 7 e](https://user-images.githubusercontent.com/64552538/94216192-cb7cb880-feac-11ea-8da4-6ba75fdce889.png)
+
+
  
 Step 9(f): Click on Men
 
