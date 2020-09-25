@@ -155,6 +155,9 @@ Step8(b): Go back to IntelliJ, the products can be seen here on the screen:
 
  
 Step 9(a): Click on the tab Portfolio, all the product Categories will be displayed:
+
+![Step 7 a](https://user-images.githubusercontent.com/64552538/94216033-5ad59c00-feac-11ea-8f16-dc81c658bf70.png)
+
  
 Step 9(b): Click on the first one, Furniture:
 
