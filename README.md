@@ -129,6 +129,9 @@ Step 6(d): Run Query for user table, this should still be empty as no user has b
  
 Step 7: Go back to browser, Click on the tab About, the application moves container to About section
 
+![Step 5](https://user-images.githubusercontent.com/64552538/94215593-20b7ca80-feab-11ea-9136-b2d65e83d74a.png)
+
+
  
 Step 8(a): Click on the tab Products, the container shows all the available products for Shopping with their details provided on the screen.
 
