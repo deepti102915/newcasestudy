@@ -150,6 +150,9 @@ Step 8(a): Click on the tab Products, the container shows all the available prod
 
  
 Step8(b): Go back to IntelliJ, the products can be seen here on the screen:
+
+![Step 6 b](https://user-images.githubusercontent.com/64552538/94215978-3083de80-feac-11ea-842a-e8c01d2257d8.png)
+
  
 Step 9(a): Click on the tab Portfolio, all the product Categories will be displayed:
  
