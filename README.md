@@ -74,6 +74,8 @@ Step 3(b): Enter username, password & click OK:
  
 Step 3(c): Expand the Database to see all Tables created dynamically after starting the application on TomcatServer:
 
+![Screen Shot 2020-09-23 at 7 59 32 PM](https://user-images.githubusercontent.com/64552538/94215224-eb5ead00-fea9-11ea-8882-68ef1c286075.png)
+
 
  
 Step 3(d) : Run the Query as follows to check that there should not be any data in the deal table
