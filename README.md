@@ -61,7 +61,8 @@ STEP1: Run Main Application by doing right click and then click on Run
 Step 2: Spring MVC should be up and running without any errors. Tomcat should start at Port 8080
 
 
-   
+   ![Step 2](https://user-images.githubusercontent.com/64552538/94212692-db8f9a80-fea2-11ea-886c-1625adc36ce0.png)
+
  
 Step 3(a) Open MYSQL workbench, Connect To Database (MySQL). We will see that now all tables are created in database but there is no data inside them.
  
