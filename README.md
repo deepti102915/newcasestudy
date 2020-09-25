@@ -6,15 +6,21 @@
 
 
 
-DELIVERABLES FOR DSHOPPING.COM
+DSHOPPING.COM
 
-Prerequisites : Step 1 - Make sure MySQl is installed on the machine.
+PREREQUISITES : Step 1 - Make sure MySQl & JDK is installed on the machine.
                 Step 2 - Update below details in application.properties file
                   spring.datasource.url=jdbc:mysql://127.0.0.1:3306/dshopping?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 		          spring.datasource.username=root
 		          spring.datasource.password =DakshaHello
+			  
+			  NOTE: Please use your MySQL username and password in Application.Properties file as shown below:
+			  
+			  
                 Step 3 - Create schema dShopping on mysql database using below create schema script.
-		                 CREATE SCHEMA DSHOPPING;
+		                 CREATE SCHEMA dshopping as shown in mysql Database:
+				 
+				 
 
 
 1: TRELLO BOARD: Trello board is a web-based Kanban Style list-making application. 
