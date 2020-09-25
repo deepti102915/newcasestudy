@@ -6,11 +6,14 @@
 
 
 
-DSHOPPING.COM
+DSHOPPING.COM DELIVERABLES
 
 PREREQUISITES :        1: Make sure MySQl & JDK is installed on the machine.
                        2: Make sure to change your mysql username and password in Application.Properties file inside the Resource Folder.
-		       3: Make sure to create database Scehma named dshopping using query: Create Schema dshopping
+		       3: Make sure to create database Scehma named dshopping using query: Create Schema dshopping. Please refer the pics below:
+		       
+		      
+		       
 
                 
 				 
