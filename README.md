@@ -233,7 +233,8 @@ Step 12 (c) : Click on the tab Clear in the above step to clear the input.
  
 Step 12(d): Click on Register tab to register the user:
 
-![Screen Shot 2020-09-23 at 8 06 19 PM](https://user-images.githubusercontent.com/64552538/94217056-126bad80-feaf-11ea-98b5-097b3c37c69f.png)
+![Screen Shot 2020-09-23 at 8 06 41 PM](https://user-images.githubusercontent.com/64552538/94217126-3929e400-feaf-11ea-809c-510e2445cb9f.png)
+
 
  
 Step 12(e): Go back to My SQL to check to see that user is registered:
