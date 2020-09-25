@@ -229,9 +229,12 @@ Step 12(b): Enter any random username and password which is not registered, it d
 
  
 
-Step 12 (c) : Click on the tab Clear to clear the input.
+Step 12 (c) : Click on the tab Clear in the above step to clear the input.
  
 Step 12(d): Click on Register tab to register the user:
+
+![Screen Shot 2020-09-23 at 8 06 19 PM](https://user-images.githubusercontent.com/64552538/94217056-126bad80-feaf-11ea-98b5-097b3c37c69f.png)
+
  
 Step 12(e): Go back to My SQL to check to see that user is registered:
 
