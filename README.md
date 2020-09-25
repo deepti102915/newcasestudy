@@ -90,6 +90,9 @@ Step 3(e): Run query for Item table:
  
 Step 3(f): Run Query for product table:
 
+![Screen Shot 2020-09-23 at 8 00 34 PM](https://user-images.githubusercontent.com/64552538/94215356-67f18b80-feaa-11ea-978c-019e795b5aaf.png)
+
+
  
 Step 3(g): Run query for User table:
  
