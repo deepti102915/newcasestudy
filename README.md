@@ -263,9 +263,15 @@ In DB we have only price and quantity, subtotal is calculated in loginconf.JSP f
  
 
 Step 14(a): Go back to Constructor and click on the test case by doing right click on Test Constructor class. It checks all Constructors works fine.
+
+![Screen Shot 2020-09-23 at 8 21 12 PM](https://user-images.githubusercontent.com/64552538/94217567-57441400-feb0-11ea-9a3f-1c4fc803a591.png)
+
  
 Step 14(b): All Test cases should pass as follows:
+
  
 Step 14(c) : Run Test Case for User Service Test to check if User is created successfully 
-Step 14 (c) : The Test case should pass as follows: 
+
+
+Step 14 (d) : The Test case should pass as follows: 
   
