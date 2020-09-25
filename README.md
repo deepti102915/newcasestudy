@@ -213,6 +213,9 @@ Step 11(a): Click on the tab Contact:
  
 Step 11(b): Click on the email address, The page should be displayed as follows to send the email:
 
+![Step 9 b](https://user-images.githubusercontent.com/64552538/94216526-9b81e500-fead-11ea-9422-8e5deabb1985.png)
+
+
  
 Step 12 (a): Click on the tab SignIn/Register:
 
