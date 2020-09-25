@@ -79,6 +79,9 @@ Step 3(c): Expand the Database to see all Tables created dynamically after start
 
  
 Step 3(d) : Run the Query as follows to check that there should not be any data in the deal table
+
+![Screen Shot 2020-09-23 at 8 00 09 PM](https://user-images.githubusercontent.com/64552538/94215276-1d700f00-feaa-11ea-98db-c6ce372ff050.png)
+
  
 Step 3(e): Run query for Item table: 
  
