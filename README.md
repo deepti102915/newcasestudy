@@ -225,6 +225,8 @@ Step 12 (a): Click on the tab SignIn/Register:
   
 Step 12(b): Enter any random username and password which is not registered, it displays the error message “User not found. Kindly register”
 
+![Screen Shot 2020-09-24 at 9 40 13 PM](https://user-images.githubusercontent.com/64552538/94216908-a5581800-feae-11ea-8b02-e250ae217520.png)
+
  
 
 Step 12 (c) : Click on the tab Clear to clear the input.
