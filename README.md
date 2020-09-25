@@ -245,6 +245,9 @@ Step 12(e): Go back to My SQL to check to see that user is registered:
  
 Step 12(f): Go back to Main page, the user name is highlighted in the Sign In/Register tab as follows: 
 
+![Screen Shot 2020-09-23 at 8 10 09 PM](https://user-images.githubusercontent.com/64552538/94217323-c3724800-feaf-11ea-9d4e-1d535385449b.png)
+
+
 Step 13(a): Click on Cart, when user has not signed in. You will see the display message as follows:
 
  
