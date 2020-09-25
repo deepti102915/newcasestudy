@@ -8,6 +8,14 @@
 
 DELIVERABLES FOR DSHOPPING.COM
 
+Prerequisites : Step 1 - Make sure MySQl is installed on the machine.
+                Step 2 - Update below details in application.properties file
+                  spring.datasource.url=jdbc:mysql://127.0.0.1:3306/dshopping?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+		          spring.datasource.username=root
+		          spring.datasource.password =DakshaHello
+                Step 3 - Create schema dShopping on mysql database using below create schema script.
+		                 CREATE SCHEMA DSHOPPING;
+
 
 1: TRELLO BOARD: Trello board is a web-based Kanban Style list-making application. 
                  Users can create their task boards with different columns and move the tasks between them.
@@ -47,7 +55,7 @@ J: $git push
  
 STEP1: Run Main Application by doing right click and then click on Run
 
-        
+        ![Step 1](https://user-images.githubusercontent.com/64552538/94212367-f7467100-fea1-11ea-886b-386787aa9bd1.png)
 
 
 Step 2: Spring MVC should be up and running without any errors. Tomcat should start at Port 8080
