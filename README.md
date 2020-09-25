@@ -14,12 +14,15 @@ PREREQUISITES : Step 1 - Make sure MySQl & JDK is installed on the machine.
 		          spring.datasource.username=root
 		          spring.datasource.password =DakshaHello
 			  
+			  ![Prerequisite1](https://user-images.githubusercontent.com/64552538/94213478-d92e4000-fea4-11ea-94de-f3612f93d268.png)
+
+			  
+			  
 			  NOTE: Please use your MySQL username and password in Application.Properties file as shown below:
 			  
 			  
 			  
-			  
-			  ![Screen Shot 2020-09-24 at 8 26 32 PM](https://user-images.githubusercontent.com/64552538/94213204-3f669300-fea4-11ea-8b22-7ce3f59ed868.png)
+			
 
 			  
 			  
