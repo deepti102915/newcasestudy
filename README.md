@@ -239,6 +239,9 @@ Step 12(d): Click on Register tab to register the user:
  
 Step 12(e): Go back to My SQL to check to see that user is registered:
 
+![Screen Shot 2020-09-23 at 8 07 11 PM](https://user-images.githubusercontent.com/64552538/94217226-7db57f80-feaf-11ea-8164-dad9bef69940.png)
+
+
  
 Step 12(f): Go back to Main page, the user name is highlighted in the Sign In/Register tab as follows: 
 
