@@ -95,6 +95,9 @@ Step 3(f): Run Query for product table:
 
  
 Step 3(g): Run query for User table:
+
+![Screen Shot 2020-09-23 at 8 00 45 PM](https://user-images.githubusercontent.com/64552538/94215410-8d7e9500-feaa-11ea-8997-f0b09f1c81a3.png)
+
  
 
 
