@@ -275,7 +275,7 @@ Step 14(b): All Test cases should pass as follows:
  
 Step 14(c) : Run Test Case for User Service Test to check if User is created successfully 
 
-![Screen Shot 2020-09-23 at 8 21 47 PM](https://user-images.githubusercontent.com/64552538/94217698-a8ec9e80-feb0-11ea-85a0-0029808b090c.png)
+![Screen Shot 2020-09-23 at 8 21 37 PM](https://user-images.githubusercontent.com/64552538/94217923-3203d580-feb1-11ea-81ec-e38ef7eea137.png)
 
 
 
