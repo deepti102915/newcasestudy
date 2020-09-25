@@ -84,6 +84,9 @@ Step 3(d) : Run the Query as follows to check that there should not be any data 
 
  
 Step 3(e): Run query for Item table: 
+
+![Screen Shot 2020-09-23 at 8 00 23 PM](https://user-images.githubusercontent.com/64552538/94215319-4395af00-feaa-11ea-95e9-567896f6c6d6.png)
+
  
 Step 3(f): Run Query for product table:
 
