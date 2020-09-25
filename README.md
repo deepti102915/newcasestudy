@@ -269,6 +269,9 @@ Step 14(a): Go back to Constructor and click on the test case by doing right cli
  
 Step 14(b): All Test cases should pass as follows:
 
+![Screen Shot 2020-09-23 at 8 21 27 PM](https://user-images.githubusercontent.com/64552538/94217630-7d69b400-feb0-11ea-9844-5c1a7bd4f395.png)
+
+
  
 Step 14(c) : Run Test Case for User Service Test to check if User is created successfully 
 
