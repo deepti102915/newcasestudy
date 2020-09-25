@@ -124,6 +124,9 @@ Step 6(a): Now, go back to DB and check if there is data present in the tables n
 
  
 Step 6(b): Run query for item table:
+
+![Screen Shot 2020-09-23 at 8 03 09 PM](https://user-images.githubusercontent.com/64552538/94215740-886e1580-feab-11ea-9b91-69b1b157af11.png)
+
  
 Step 6(c) : Run query for Product table:
 
