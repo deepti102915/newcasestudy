@@ -63,6 +63,9 @@ Step 2: Spring MVC should be up and running without any errors. Tomcat should st
 
  
 Step 3(a) Open MYSQL workbench, Connect To Database (MySQL). We will see that now all tables are created in database but there is no data inside them.
+
+![Screen Shot 2020-09-23 at 7 58 56 PM](https://user-images.githubusercontent.com/64552538/94214957-13014580-fea9-11ea-8551-c4be2a78e647.png)
+
  
 Step 3(b): Enter username, password & click OK:
  
