@@ -130,6 +130,8 @@ Step 6(b): Run query for item table:
  
 Step 6(c) : Run query for Product table:
 
+![Screen Shot 2020-09-23 at 8 03 18 PM](https://user-images.githubusercontent.com/64552538/94215821-b5bac380-feab-11ea-95a7-a96582deb9f2.png)
+
  
 Step 6(d): Run Query for user table, this should still be empty as no user has been registered:
  
