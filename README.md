@@ -250,6 +250,9 @@ Step 12(f): Go back to Main page, the user name is highlighted in the Sign In/Re
 
 Step 13(a): Click on Cart, when user has not signed in. You will see the display message as follows:
 
+![Screen Shot 2020-09-23 at 8 10 27 PM](https://user-images.githubusercontent.com/64552538/94217388-e0a71680-feaf-11ea-850c-5ed03c60de32.png)
+
+
  
 Step 13(b): Sign In, if anything is present in the cart for that user it will be displayed. Click on Cart now. All Products in the cart will be displayed as follows: 
 In DB we have only price and quantity, subtotal is calculated in loginconf.JSP files.  This ensures that HomeController works fine.
