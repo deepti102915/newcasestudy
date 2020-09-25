@@ -161,6 +161,8 @@ Step 9(a): Click on the tab Portfolio, all the product Categories will be displa
  
 Step 9(b): Click on the first one, Furniture:
 
+![Step 7 b](https://user-images.githubusercontent.com/64552538/94216088-7d67b500-feac-11ea-877f-c0b51c35af64.png)
+
  
 Step 9(c) : Click on the second one, Mobile: 
 
