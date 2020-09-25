@@ -184,6 +184,9 @@ Step 9 (e) : Click on Computers
  
 Step 9(f): Click on Men
 
+![Step 7 f](https://user-images.githubusercontent.com/64552538/94216272-f830d000-feac-11ea-9134-3f41ebe602a8.png)
+
+
  
 Step 9(g): Click on Women:
 
