@@ -12,6 +12,9 @@ PREREQUISITES :        1: Make sure MySQl & JDK is installed on the machine.
                        2: Make sure to change your mysql username and password in Application.Properties file inside the Resource Folder.
 		       3: Make sure to create database Scehma named dshopping using query: Create Schema dshopping. Please refer the pics below:
 		       
+		       ![Screen Shot 2020-09-24 at 8 24 55 PM](https://user-images.githubusercontent.com/64552538/94214767-80f93d00-fea8-11ea-8afb-8212380ada39.png)
+
+		       
 		      
 				 
 				 
