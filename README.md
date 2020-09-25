@@ -134,6 +134,8 @@ Step 6(c) : Run query for Product table:
 
  
 Step 6(d): Run Query for user table, this should still be empty as no user has been registered:
+
+![Screen Shot 2020-09-23 at 8 05 40 PM](https://user-images.githubusercontent.com/64552538/94215868-d84cdc80-feab-11ea-97c1-0176b54dce80.png)
  
 Step 7: Go back to browser, Click on the tab About, the application moves container to About section
 
