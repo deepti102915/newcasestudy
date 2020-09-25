@@ -257,6 +257,9 @@ Step 13(a): Click on Cart, when user has not signed in. You will see the display
 Step 13(b): Sign In, if anything is present in the cart for that user it will be displayed. Click on Cart now. All Products in the cart will be displayed as follows: 
 In DB we have only price and quantity, subtotal is calculated in loginconf.JSP files.  This ensures that HomeController works fine.
 
+![Screen Shot 2020-09-23 at 8 18 37 PM](https://user-images.githubusercontent.com/64552538/94217480-16e49600-feb0-11ea-9ca3-ba8a6086cf6c.png)
+
+
  
 
 Step 14(a): Go back to Constructor and click on the test case by doing right click on Test Constructor class. It checks all Constructors works fine.
