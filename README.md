@@ -112,6 +112,9 @@ Step 4: Launched application using localhost URL which includes default port 808
 
 Step 5: By Default the application starts with Home Screen
 
+![Step 4](https://user-images.githubusercontent.com/64552538/94215562-febe4800-feaa-11ea-9a17-ac9b2c49518d.png)
+
+
  
 
 Step 6(a): Now, go back to DB and check if there is data present in the tables now. Run Query for deal table. Data is available now.
