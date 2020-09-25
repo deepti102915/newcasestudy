@@ -103,6 +103,9 @@ Step 3(g): Run query for User table:
 
 Step 4: Launched application using localhost URL which includes default port 8080
 
+![Step 3](https://user-images.githubusercontent.com/64552538/94215510-d59db780-feaa-11ea-8d53-ca85c04cdd46.png)
+
+
 
  
 
