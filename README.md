@@ -13,9 +13,6 @@ PREREQUISITES :        1: Make sure MySQl & JDK is installed on the machine.
 		       3: Make sure to create database Scehma named dshopping using query: Create Schema dshopping. Please refer the pics below:
 		       
 		      
-		       
-
-                
 				 
 				 
 
