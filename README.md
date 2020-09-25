@@ -196,6 +196,8 @@ Step 9(g): Click on Women:
  
 Step 10 (a): Click on the tab Today’s Deal:
 
+![Step 8 a](https://user-images.githubusercontent.com/64552538/94216380-3928e480-fead-11ea-9c27-d478147056dc.png)
+
  
 Step 10(b): Click on the IntelliJ, the Deals can be seen here on the screen.
 
