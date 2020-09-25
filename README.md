@@ -219,6 +219,9 @@ Step 11(b): Click on the email address, The page should be displayed as follows 
  
 Step 12 (a): Click on the tab SignIn/Register:
 
+![Screen Shot 2020-09-23 at 8 06 00 PM](https://user-images.githubusercontent.com/64552538/94216613-cb30ed00-fead-11ea-8dd7-11d6051c92ca.png)
+
+
   
 Step 12(b): Enter any random username and password which is not registered, it displays the error message “User not found. Kindly register”
 
