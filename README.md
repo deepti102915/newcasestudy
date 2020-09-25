@@ -145,6 +145,9 @@ Step 7: Go back to browser, Click on the tab About, the application moves contai
  
 Step 8(a): Click on the tab Products, the container shows all the available products for Shopping with their details provided on the screen.
 
+![Step 6 a](https://user-images.githubusercontent.com/64552538/94215928-0a5e3e80-feac-11ea-96e9-752671617fa3.png)
+
+
  
 Step8(b): Go back to IntelliJ, the products can be seen here on the screen:
  
