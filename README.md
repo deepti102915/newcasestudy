@@ -207,6 +207,9 @@ Step 10(b): Click on the IntelliJ, the Deals can be seen here on the screen.
  
 
 Step 11(a): Click on the tab Contact:
+
+![Step 9 a](https://user-images.githubusercontent.com/64552538/94216488-81e09d80-fead-11ea-9bdb-b7d648326098.png)
+
  
 Step 11(b): Click on the email address, The page should be displayed as follows to send the email:
 
