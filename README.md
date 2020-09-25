@@ -172,6 +172,9 @@ Step 9(c) : Click on the second one, Mobile:
  
 Step 9 (d): Click on Books: 
 
+![Step 7 d](https://user-images.githubusercontent.com/64552538/94216156-b011ad80-feac-11ea-8544-f99f38007bd9.png)
+
+
  
 Step 9 (e) : Click on Computers
 
