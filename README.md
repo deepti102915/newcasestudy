@@ -55,6 +55,8 @@ J: $git push
  
 STEP1: Run Main Application by doing right click and then click on Run
 
+![Step 1](https://user-images.githubusercontent.com/64552538/94212851-48a33000-fea3-11ea-9f8e-20ca95810960.png)
+
 
 Step 2: Spring MVC should be up and running without any errors. Tomcat should start at Port 8080
 
