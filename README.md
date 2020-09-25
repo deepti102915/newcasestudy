@@ -190,6 +190,9 @@ Step 9(f): Click on Men
  
 Step 9(g): Click on Women:
 
+![Step 7 g](https://user-images.githubusercontent.com/64552538/94216325-1696cb80-fead-11ea-9ae8-6b94ea7beb27.png)
+
+
  
 Step 10 (a): Click on the tab Today’s Deal:
 
