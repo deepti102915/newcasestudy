@@ -72,18 +72,18 @@ Step 3(b): Enter username, password & click OK:
 ![Screen Shot 2020-09-23 at 7 59 08 PM](https://user-images.githubusercontent.com/64552538/94215035-4cd24c00-fea9-11ea-8dd2-30b9a76552ac.png)
 
  
-Step 3(c) : We can see our Database DShopping.com has been dynamically created
- 
-Step 3(d): Expand the Database to see all Tables created dynamically:
- 
-Step 3(e) : Run the Query as follows to check that there should not be any data in the deal table
- 
-Step 3(f): Run query for Item table: 
- 
-Step 3(g): Run Query for product table:
+Step 3(c): Expand the Database to see all Tables created dynamically after starting the application on TomcatServer:
+
 
  
-Step 3(h): Run query for User table:
+Step 3(d) : Run the Query as follows to check that there should not be any data in the deal table
+ 
+Step 3(e): Run query for Item table: 
+ 
+Step 3(f): Run Query for product table:
+
+ 
+Step 3(g): Run query for User table:
  
 
 
