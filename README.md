@@ -280,4 +280,7 @@ Step 14(c) : Run Test Case for User Service Test to check if User is created suc
 
 
 Step 14 (d) : The Test case should pass as follows: 
+
+![Screen Shot 2020-09-23 at 8 21 59 PM](https://user-images.githubusercontent.com/64552538/94217749-c7529a00-feb0-11ea-913b-4efc6f4c739f.png)
+
   
