@@ -119,6 +119,9 @@ Step 5: By Default the application starts with Home Screen
 
 Step 6(a): Now, go back to DB and check if there is data present in the tables now. Run Query for deal table. Data is available now.
 
+![Screen Shot 2020-09-23 at 8 02 59 PM](https://user-images.githubusercontent.com/64552538/94215674-607eb200-feab-11ea-9827-cf3129031fbd.png)
+
+
  
 Step 6(b): Run query for item table:
  
