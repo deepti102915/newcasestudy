@@ -201,6 +201,9 @@ Step 10 (a): Click on the tab Today’s Deal:
  
 Step 10(b): Click on the IntelliJ, the Deals can be seen here on the screen.
 
+![Step 8 b](https://user-images.githubusercontent.com/64552538/94216448-58c00d00-fead-11ea-842c-5ea9b4a704c8.png)
+
+
  
 
 Step 11(a): Click on the tab Contact:
