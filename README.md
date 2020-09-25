@@ -166,6 +166,9 @@ Step 9(b): Click on the first one, Furniture:
  
 Step 9(c) : Click on the second one, Mobile: 
 
+![Step 7 c](https://user-images.githubusercontent.com/64552538/94216131-9708fc80-feac-11ea-90c3-7a0d95d7b928.png)
+
+
  
 Step 9 (d): Click on Books: 
 
