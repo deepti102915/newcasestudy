@@ -8,16 +8,11 @@
 
 DSHOPPING.COM
 
-PREREQUISITES : Step 1 - Make sure MySQl & JDK is installed on the machine.
+PREREQUISITES :        1: Make sure MySQl & JDK is installed on the machine.
+                       2: Make sure to change your mysql username and password in Application.Properties file inside the Resource Folder.
+		       3: Make sure to create database Scehma named dshopping using query: Create Schema dshopping
 
-                Step 2 - Update below details in application.properties file
-                  spring.datasource.url=jdbc:mysql://127.0.0.1:3306/dshopping? useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-		          spring.datasource.username=root
-		          spring.datasource.password =DakshaHello
-	NOTE: Please use your MySQL username and password in Application.Properties file inside Resource Folder.
-			  
-              Step 3 - Create schema dShopping on mysql database using below create schema script.
-		                 CREATE SCHEMA dshopping as shown in mysql Database:
+                
 				 
 				 
 
